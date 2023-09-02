@@ -1,0 +1,439 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: poppins;
+}
+#header{
+    display:block;
+    padding-bottom: 26px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+#header h3{
+    font-style: bold;
+    padding-left: 7%;
+     padding-top: 2%;
+    font-size: 33px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#header ul{
+   padding-left: 65%;
+   position: absolute;
+   top: 20px;
+   right: 5%;
+}
+#header ul li{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 15px;
+ 
+}
+#header ul li a:hover{
+    letter-spacing:2px;
+}
+#header ul li a
+{
+    color: gray;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+#header hr{
+    padding: 20px;
+   opacity: 100%;
+}
+.navbar #ss{
+    padding-top:2%;
+    text-align: center;
+}
+.navbar #ss button{
+    font-size: 25px;
+    padding: 13px;
+    color: white;
+    background-color: #118ab2;
+    border: none;
+}
+.navbar #ss button::before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 24%;
+    left: 45%;
+    background-color: #118ab2;
+    border-radius: 50%;
+}
+.navbar #ss button::after {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 24%;
+    left: 54.25%;
+    background-color: #118ab2;
+    border-radius: 50%;
+}
+.navbar #ss button:hover{
+    opacity: 50%;
+    border-radius: 25px;
+    transition: all 0.75s;
+}
+.navbar #ss button:hover::before{
+    background-color: white;
+    position: absolute;
+    top: 24%;
+    left: 46.25%;
+    transition: all 0.75s;
+}
+.navbar #ss button:hover::after{
+    background-color: white;
+    position: absolute;
+    top: 24%;
+    left: 53%;
+    transition: all 0.75s;
+}
+.navbar #main{
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding-top: 12%;
+}
+.navbar #main h1{
+    color: black;
+    font-size: 45px;
+    padding-left: 3%;
+    font-family:poppins;
+}
+.navbar #main h2{
+    color: rgb(113, 188, 205);
+    font-size: 45px;
+    padding-left: 3%;
+    font-family:poppins;
+}
+.navbar #main p{
+    color: gray;
+    padding-left: 3%;
+    font-family:poppins;
+    padding-top: 4.5%;
+}
+.navbar #main a{
+    position: absolute;
+    left: 3%;
+    top: 92%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    color: #118ab2;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid #118ab2;
+}
+.navbar #main a:hover{
+    position: absolute;
+    left: 3%;
+    top: 92%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: #118ab2;
+    border: 2px solid #118ab2;
+}
+.navbar #main img{
+   width: 600px;
+   height: 400px;
+   position: absolute;
+   left: 50%;
+}
+.body #about{
+    padding-top:25%;
+    text-align: center;
+}
+.body #about button{
+    font-size: 25px;
+    padding: 13px;
+    color: white;
+    background-color: #118ab2;
+    border: none;
+}
+.body #about button::before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 139.5%;
+    left: 45%;
+    background-color: #118ab2;
+    border-radius: 50%;
+}
+.body #about button::after {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 139.5%;
+    left: 54.25%;
+    background-color: #118ab2;
+    border-radius: 50%;
+}
+.body #about button:hover{
+    opacity: 50%;
+    border-radius: 25px;
+    transition: all 0.75s;
+}
+.body #about button:hover::before{
+    background-color: white;
+    position: absolute;
+    top: 139.5%;
+    left: 46.20%;
+    transition: all 0.75s;
+}
+.body #about button:hover::after{
+    background-color: white;
+    position: absolute;
+    top:139.5%;
+    left: 53%;
+    transition: all 0.75s;
+}
+.body #kurmteam {
+    margin-top: 20px;
+    display: block;
+    padding: 10px;
+    background-color: #95d3e8;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.body #kurmteam h2{
+    font-size: 25px;
+    font-family:poppins;
+    padding: 3px;
+}
+.body #kurmteam p{
+    font-family:poppins;
+    padding: 3px;
+}
+.blogs #blogs{
+    padding-top:3%;
+    text-align: center;
+}
+.blogs #blogs button{
+    font-size: 25px;
+    padding: 13px;
+    color: white;
+    background-color: #118ab2;
+    border: none;
+}
+.blogs #blogs button::before {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 189%;
+    left: 45%;
+    background-color: #118ab2;
+    border-radius: 50%;
+}
+.blogs #blogs button::after {
+    content: " ";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 189%;
+    left: 54.25%;
+    background-color: #118ab2;
+    border-radius: 50%;
+}
+.blogs #blogs button:hover{
+    opacity: 50%;
+    border-radius: 25px;
+    transition: all 0.75s;
+}
+.blogs #blogs button:hover::before{
+    background-color: white;
+    position: absolute;
+    top: 189%;
+    left: 46.5%;
+    transition: all 0.75s;
+}
+.blogs #blogs button:hover::after{
+    background-color: white;
+    position: absolute;
+    top:189%;
+    left: 52.80%;
+    transition: all 0.75s;
+}
+.blogs #family{
+    display: block;
+   
+}
+.blogs #family img {
+    width: 300px;
+}
+.blogs #first , #sec ,#third{
+    display: inline-block;
+    margin-top: 2%;
+}
+.blogs #first{
+    margin-left: 5%;
+    width: 30%;
+    height: 650px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blogs #first h2{
+    padding: 13px;
+    color: #118ab2;
+    font-family: poppins;
+}
+.blogs #first p{
+    padding: 10px;
+    font-family: poppins;
+    font-size: 17px;
+    color: gray;
+}
+.blogs #first a{
+   padding: 5px;
+   font-size: 18px;
+   font-style: bold;
+   text-decoration: none;
+   color: #066f92;
+   margin-left:70% ;
+}
+.blogs #sec{
+    width: 30%;
+    height: 650px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 199%;
+    left: 65.5%;
+}
+.blogs #sec h2{
+    padding: 13px;
+    color: #118ab2;
+    font-family: poppins;
+}
+.blogs #sec p{
+    padding: 10px;
+    font-family: poppins;
+    font-size: 17px;
+    color: gray;
+}
+.blogs #sec a{
+   padding: 5px;
+   font-size: 18px;
+   font-style: bold;
+   text-decoration: none;
+   color: #066f92;
+   margin-left:70% ;
+}
+.blogs #third{
+    width: 30%;
+    height: 650px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blogs #third h2{
+    padding: 13px;
+    color: #118ab2;
+    font-family: poppins;
+}
+.blogs #third p{
+    padding: 10px;
+    font-family: poppins;
+    font-size: 17px;
+    color: gray;
+}
+.blogs #third a{
+   padding: 5px;
+   font-size: 18px;
+   font-style: bold;
+   text-decoration: none;
+   color: #066f92;
+   margin-left:70% ;
+}
+.blogs #for , #fif ,#six{
+    display: inline-block;
+}
+.blogs #for{
+    margin-left: 5%;
+    width: 30%;
+    height: 650px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blogs #for h2{
+    padding: 13px;
+    color: #118ab2;
+    font-family: poppins;
+}
+.blogs #for p{
+    padding: 10px;
+    font-family: poppins;
+    font-size: 17px;
+    color: gray;
+}
+.blogs #for a{
+   padding: 5px;
+   font-size: 18px;
+   font-style: bold;
+   text-decoration: none;
+   color: #066f92;
+   margin-left:70% ;
+}
+.blogs #fif{
+    width: 30%;
+    height: 650px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blogs #fif h2{
+    padding: 13px;
+    color: #118ab2;
+    font-family: poppins;
+}
+.blogs #fif p{
+    padding: 10px;
+    font-family: poppins;
+    font-size: 17px;
+    color: gray;
+}
+.blogs #fif a{
+   padding: 5px;
+   font-size: 18px;
+   font-style: bold;
+   text-decoration: none;
+   color: #066f92;
+   margin-left:70% ;
+}
+.blogs #six{
+    margin-right: 2%;
+    width: 30%;
+    height: 650px;
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blogs #six h2{
+    padding: 13px;
+    color: #118ab2;
+    font-family: poppins;
+}
+.blogs #six p{
+    padding: 10px;
+    font-family: poppins;
+    font-size: 17px;
+    color: gray;
+}
+.blogs #six a{
+   padding: 5px;
+   font-size: 18px;
+   font-style: bold;
+   text-decoration: none;
+   color: #066f92;
+   margin-left:70% ;
+}
+.footer{
+    display: block;
+    background-color: rgb(136, 136, 136);
+    padding: 28px;
+    padding-left: 8%;
+}
+.footer span{
+    color: #91f367;
+}
